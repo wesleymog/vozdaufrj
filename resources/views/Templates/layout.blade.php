@@ -3,15 +3,17 @@
 <html>
 <head>
 	<title>Voz Da UFRJ</title>
-	<link rel= "stylesheet" type="text/css" href="drop.css"/>
+	<link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}"/>
+
 </head>
 <body>
-		<div display='inline-block'>	
+		<div class="cabecalho">
+
 				<img src="https://ufrj.br/img/minerva/003minerva_transparente_vertical.png"  width="50px">
 				<h1>Voz Da UFRJ</h1>
 				<form>	
 						Login<input type="text" name="login">
-						<p>Senha<input type="text" name="senha"> 
+						<p>Senha<input type="text" name="senha">
 						<button>Logar</button></p>						
 				</form>
 		</div>
