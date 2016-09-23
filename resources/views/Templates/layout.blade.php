@@ -9,11 +9,11 @@
 <header>
     <div class="cabecalho ">
 
-        <img class="col-xs-1 col-md-1 col-lg-1" src="https://ufrj.br/img/minerva/003minerva_transparente_vertical.png" height="50px" width="50px">
+        <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="https://ufrj.br/img/minerva/003minerva_transparente_vertical.png" width="50px">
         <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz Da UFRJ</h1>
-        <form class="col-xs-4 col-md-4 col-lg-4">
-            Login<input type="text" name="login">
-            <p>Senha<input type="text" name="senha">
+        <form class="input-group col-xs-4 col-md-4 col-lg-4">
+            Login<input type="text" name="login" class="form-control" width="50px">
+            <p>Senha<input type="text" name="senha" class="form-control">
                 <button>Logar</button></p>
         </form>
     </div>
@@ -21,7 +21,7 @@
 <body>
 
 		
-        <nav class="dropdownNav oi marginBottom-0" role="navigation">
+        <nav class="dropdownNav marginBottom-0" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -29,18 +29,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <a class="navbar-brand" href="#" target="_blank">NewWindow</a>
+              <a class="navbar-brand" href="#" target="_blank">Home</a>
             </div>
             
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Active Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <li class="active"><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contatos</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Campos<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Dropdown Link 1</a></li>
-                            <li><a href="#">Dropdown Link 2</a></li>
-                            <li><a href="#">Dropdown Link 3</a></li>
+                            <li><a href="#">CCMN</a></li>
+                            <li><a href="#">CCS</a></li>
+                            <li><a href="#">CT</a></li>
                             <li class="divider"></li>
                            
                         </ul>
@@ -106,6 +106,8 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
         </div>
+
+    @yield('conteudo')
      
 </body>
 </html>
