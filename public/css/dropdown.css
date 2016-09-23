@@ -46,6 +46,35 @@
     border-radius: 6px 0 6px 6px;
 }
 
-.cabecalho {
+.cabecalho{
     display: inline-block;
+    background-color: #1f648b;
+
+}
+
+.dropdownNav,
+.texto{
+    position: relative;
+}
+
+.cabecalho,
+.scrollednav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.dropdownNav,
+.scrollednav{
+    background-color: #2e3436;
+}
+
+.dropdownNav{
+    z-index: 200;
+}
+
+
+
+body{
+    padding-top: 150px;
 }
