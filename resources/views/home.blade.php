@@ -1,5 +1,5 @@
-@extends("./Templates/layout")
+@extends ('.Templates/layout')
 
-@section('conteudo')
- oiiagfuoiag
+@section ('conteudo')
+adsasdsd
 @endsection

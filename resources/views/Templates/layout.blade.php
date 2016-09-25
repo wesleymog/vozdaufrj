@@ -3,8 +3,9 @@
 <html>
 <head>
 	<title>Voz Da UFRJ</title>
-	<link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+    <link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}">
 </head>
 <header>
     <div class="cabecalho ">
@@ -29,85 +30,33 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <a class="navbar-brand" href="#" target="_blank">Home</a>
+              <a class="navbar-brand" href="./">Home</a>
             </div>
             
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="./contato">Contato</a></li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Campos<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">CCMN</a></li>
                             <li><a href="#">CCS</a></li>
                             <li><a href="#">CT</a></li>
+                            <li><a href="#">EEFD</a></li>
+                            <li><a href="#">LETRAS</a></li>
+
                             <li class="divider"></li>
-                           
+        
                         </ul>
                     </li>
                     
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
-        <div class="texto">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequuntur culpa, doloremque dolores error eveniet excepturi exercitationem harum iste itaque labore laborum neque nihil pariatur, quas saepe sapiente unde?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur consequatur delectus eius enim error, expedita illo illum inventore ipsam, iusto nostrum, porro possimus ratione sed sit sunt vel voluptates!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam earum fugiat, ipsa iure quaerat ut. Accusantium aliquam ducimus enim exercitationem illum magnam minima placeat, porro quibusdam quod veritatis?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolores eius enim facere harum ipsa molestiae molestias nemo nisi nobis perferendis perspiciatis, quisquam saepe sapiente sequi, temporibus ullam. Atque, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum maxime quis saepe voluptas. Deleniti dicta doloribus earum explicabo facilis nobis quae quo quos! Commodi deleniti dignissimos earum in temporibus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam dolore excepturi expedita explicabo facere fugiat libero maiores minima, minus, obcaecati odio officia, praesentium reprehenderit sit unde veritatis vitae voluptatibus?
-        </div>
-
+        
+    <div class="container">
     @yield('conteudo')
+    </div>
      
 </body>
 </html>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["contato.scss"],"names":[],"mappings":"AAAA;EACC,kBAAkB,EAClB;;AAED;EACC,gBAAgB;EACf,mBAAmB;EACnB,eAAe;EACf,YAAY,EACb","file":"app.css","sourcesContent":[".container{\r\n\tpadding-top: 50px;\r\n}\r\n\r\n.h1{\t\r\n\tfont-size: 50px;\r\n \ttext-align: center;\r\n \tcolor: #4682B4;\r\n \twidth: 10px;\r\n}"],"sourceRoot":"/source/"}
