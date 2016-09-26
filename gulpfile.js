@@ -13,7 +13,6 @@ require('laravel-elixir-vue');
  |
  */
 
-elixir(mix => {
-    mix.sass('*.scss')
-       .webpack('app.js');
+elixir(function(mix) {
+    mix.sass('dropdown.scss');
 });

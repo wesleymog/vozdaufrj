@@ -2,7 +2,7 @@
 
 @section ('conteudo')
 
-<div class='container'>
+<div class='container contPos' >
 <form class="form-horizontal">
 <fieldset>
 
@@ -12,9 +12,9 @@
 <br>
 
 <!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput"></label>  
-  <div class="col-md-6">
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="textinput"></label>
+    <div class="col-md-6">
   <input id="textinput" name="textinput" type="text" placeholder="Nome" class="form-control input-md">
     
   </div>

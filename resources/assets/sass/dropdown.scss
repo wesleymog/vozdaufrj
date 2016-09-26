@@ -80,14 +80,25 @@ body{
 }
 
 h1{
-    font-size: 200em;
+    font-size: 2em;
 }
 
 .ufrjlog{
     min-width: 50px;
-    max-width: 50px;
+    max-width: 100px;
 }
 
-.texto{
+.cabecalho{
+    z-index: -100;
+}
+
+.contColor{
     background-color: white;
+    z-index: 150;
+    position: relative;
+    width: 100%;
+}
+
+.contPos{
+    margin-left: -50px;
 }
