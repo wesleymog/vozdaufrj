@@ -9,17 +9,21 @@
 
 </head>
 
+
+
+<body>
+
 <header>
     <div class="cabecalho container">
 
         <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="https://ufrj.br/img/minerva/003minerva_transparente_vertical.png" width="50px">
         <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz Da UFRJ</h1>
         <div class="col-xs-4 col-md-4 col-lg-4">
-        <form class="input-group">
-            Login <input type="text" name="login" class="form-group">
-            <p>Senha<input type="text" name="senha" class="form-group">
-                <button class="">Logar</button></p>
-        </form>
+            <form class="input-group">
+                Login <input type="text" name="login" class="form-group">
+                <p>Senha<input type="text" name="senha" class="form-group">
+                    <button class="">Logar</button></p>
+            </form>
         </div>
     </div>
 
@@ -41,7 +45,7 @@
                 <li><a href="./contato">Contato</a></li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Campos<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">CCMN</a></li>
+                        <li><a href="./CCMN">CCMN</a></li>
                         <li><a href="#">CCS</a></li>
                         <li><a href="#">CT</a></li>
                         <li><a href="#">EEFD</a></li>
@@ -57,13 +61,18 @@
     </nav>
 </header>
 
-<body>
-        
+
     <div class="container contColor">
     @yield('conteudo')
     </div>
-     
+
+
+    <footer>
+        <div class="navbar-fixed-bottom rodaPe"><p>palhaçada palhaçada palhaçada</p></div>
+    </footer>
 </body>
+
+
 </html>
 <script src="js/app.js"></script>
 <script src="js/dropdown.js"></script>

@@ -21,3 +21,8 @@ Route::get('/contato', function () {
     return view('contato');
 
 });
+
+Route::get('/CCMN', function () {
+    return view('CCMN');
+
+});

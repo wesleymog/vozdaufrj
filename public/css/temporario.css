@@ -1,0 +1,30 @@
+/*esse arquivo existe para salvar as alterações feitas no css do dropdown pois eu nao consegui usar o gulp na ejcm*/
+
+.rodaPe{
+    position: relative;
+    bottom: -200px;
+    width: 100%;
+    height: 100px;
+    background-color: #2e2e2e;
+}
+
+.curso{
+    width: 30%;
+    margin: 1%;
+    background-color: green;
+    border: solid;
+    border-bottom-width: thick;
+}
+
+.tx{
+    width:100%;
+    text-align: center;
+    padding-top:80%;
+    -webkit-transform: translateY(-50%); /* child now centers itself relative to the midline based on own contents */
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0)'; /*IE8 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0); /*IE6, IE7*/
+    transform: translateY(-50%);
+}

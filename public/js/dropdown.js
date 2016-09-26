@@ -7,3 +7,5 @@ $(window).scroll(function() {
         dropNav.removeClass("scrollednav");
     }
 });
+
+$('.curso').height($('.curso').width());
