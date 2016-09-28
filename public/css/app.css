@@ -1,8 +1,12 @@
 
-.h1 {
+.contact {
   font-size: 50px;
   text-align: center;
   color: #4682B4;
   width: 10px; }
+
+.contatoform h1{
+  text-align: center;
+}
 
 /*# sourceMappingURL=app.css.map */

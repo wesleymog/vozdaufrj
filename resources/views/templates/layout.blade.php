@@ -28,7 +28,7 @@
 
                             <div class="form-group">
                                 <label for="DRE">DRE: </label>
-                                <input type="number" class="form-control" name="DRE" id="DRE">
+                                <input type="text" class="form-control" name="DRE" id="DRE" maxlength="9" minlength="9">
                             </div>
 
 
@@ -87,14 +87,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="./">Home</a>
+                    <a class="navbar-brand" href="./">HOME</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Sobre Nós</a></li>
-                        <li><a href="./contato">Contato</a></li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Campos<b class="caret"></b></a>
+
+                        <li><a href="./contato">CONTATO</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PRÉDIO<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="./CCMN">CCMN</a></li>
                                 <li><a href="#">CCS</a></li>
@@ -105,7 +105,7 @@
                                 <li class="divider"></li>
 
                             </ul>
-                        <li><a for="logar"><button class="logar" type="button" data-href="#myModal" data-toggle="modal" data-target="#modalCad">cadastro</button></a></li>
+                        <li><a for="logar"><button class="logar" type="button" data-href="#myModal" data-toggle="modal" data-target="#modalCad">CADASTRO</button></a></li>
                         </li>
 
                     </ul>
