@@ -85,4 +85,4 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda eaque, est fugiat hic iure laborum maxime quam quas, quo repudiandae sed similique tempore ut vel vero voluptatibus! Qui, quod!
     </div>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('.Templates/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('.templates/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,4 +1,4 @@
-@extends ('.Templates/layout')
+@extends ('.templates/layout')
 
 @section ('conteudo')
  <div class="textos">
