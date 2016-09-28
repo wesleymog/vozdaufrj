@@ -2,6 +2,8 @@
 
 @section ('conteudo')
     <div class="textos">
+        <p>
+>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur deleniti dolorum minus mollitia quos? Ab, blanditiis consequuntur doloribus hic id inventore iste magni maxime minima nobis omnis sit? Rerum?
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur dolor eos ex fuga inventore ipsa magnam maiores, modi nobis nulla odio odit perspiciatis, quia quibusdam quis quisquam sed sint?
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor error, eum magnam mollitia neque numquam officiis pariatur qui similique. Deserunt, distinctio dolorum earum nobis numquam odit officia rem repellat?
@@ -85,5 +87,6 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda deleniti earum error expedita illo, illum incidunt, maiores minus modi neque nesciunt, nostrum numquam pariatur perferendis perspiciatis sequi. Ea, praesentium!
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolore, dolores, eius eos eum hic inventore iure labore magnam maiores mollitia neque nostrum nulla possimus praesentium quidem reprehenderit sint temporibus.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda eaque, est fugiat hic iure laborum maxime quam quas, quo repudiandae sed similique tempore ut vel vero voluptatibus! Qui, quod!
+        </p>
     </div>
 @endsection

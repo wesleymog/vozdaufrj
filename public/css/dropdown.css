@@ -128,3 +128,13 @@ h1 {
   height: 100%;
 
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size:15px;
+}
+
+p{
+  line-height: 22px;
+
+}
