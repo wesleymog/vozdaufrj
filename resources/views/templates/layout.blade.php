@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Voz Da UFRJ</title>
+        <title>Voz da UFRJ</title>
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
         <link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}">
@@ -68,7 +68,7 @@
             <div class="cabecalho container">
 
                 <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="{{asset('./imagens/003minerva_transparente_vertical.png')}}" width="50px">
-                <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz Da UFRJ</h1>
+                <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz da UFRJ</h1>
                 <div class="col-xs-4 col-md-4 col-lg-4">
                     <form class="input-group">
                         Login <input type="text" name="login" class="form-group">
@@ -139,7 +139,8 @@
         </div>
 
     </body>
-
+    <script src='{{asset("js/app.js")}}'></script>
+    <script src='{{asset("js/dropdown.js")}}'></script>
 </html>
-<script src="js/app.js"></script>
-<script src="js/dropdown.js"></script>
+
+
