@@ -8,8 +8,7 @@
 
 <!-- Form Name -->
 
-          <legend class='h1'>Contato</legend>
-          <br>
+          <h1 class="h1">Contato</h1>
 
   <!-- Text input-->
           <div class="form-group">

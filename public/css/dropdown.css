@@ -83,10 +83,13 @@ h1 {
 
 .rodape{
   position: relative;
+  /*
   bottom: -200px;
+  */
   width: 100%;
-  height: 100px;
+
   background-color: #2e2e2e;
+  color: #f9f2f4;
 }
 
 .curso{
