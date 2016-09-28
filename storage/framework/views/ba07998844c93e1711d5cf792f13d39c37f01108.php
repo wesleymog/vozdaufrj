@@ -1,6 +1,4 @@
-@extends ('Templates/layout')
-
-@section ('conteudo')
+<?php $__env->startSection('conteudo'); ?>
 
 <div class='container contPos' >
 <form class="form-horizontal">
@@ -68,6 +66,8 @@
 </fieldset>
 </form>
 </div>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
+
+<?php echo $__env->make('Templates/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

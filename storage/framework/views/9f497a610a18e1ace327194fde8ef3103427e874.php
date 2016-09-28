@@ -3,9 +3,9 @@
 <html>
 <head>
 	<title>Voz Da UFRJ</title>
-    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
-    <link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}">
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/bootstrap.min.css')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/app.css')); ?>">
+    <link rel= "stylesheet" type="text/css" href="<?php echo e(asset('css/dropdown.css')); ?>">
 
 </head>
 
@@ -68,7 +68,7 @@
 <header>
     <div class="cabecalho container">
 
-        <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="{{asset('assets/images/image.png')}}" width="50px">
+        <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="<?php echo e(asset('assets/images/image.png')); ?>" width="50px">
         <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz Da UFRJ</h1>
         <div class="col-xs-4 col-md-4 col-lg-4">
             <form class="input-group">
@@ -116,7 +116,7 @@
 
 
     <div class="container contColor">
-    @yield('conteudo')
+    <?php echo $__env->yieldContent('conteudo'); ?>
     </div>
 
 

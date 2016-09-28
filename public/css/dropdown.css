@@ -113,3 +113,17 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0);
   transform: translateY(-50%);
 }
+.logar{
+  background: none;
+  border:0px;
+}
+.textos{
+  margin-left:15%;
+  margin-right:15%;
+  border:5px solid;
+  border-color: #090f05;
+  text-align:  justify;
+}
+.centro{
+  text-align: center;
+}

@@ -1,6 +1,4 @@
-@extends ('.Templates/layout')
-
-@section ('conteudo')
+<?php $__env->startSection('conteudo'); ?>
     <div class="textos">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur deleniti dolorum minus mollitia quos? Ab, blanditiis consequuntur doloribus hic id inventore iste magni maxime minima nobis omnis sit? Rerum?
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur dolor eos ex fuga inventore ipsa magnam maiores, modi nobis nulla odio odit perspiciatis, quia quibusdam quis quisquam sed sint?
@@ -86,4 +84,5 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolore, dolores, eius eos eum hic inventore iure labore magnam maiores mollitia neque nostrum nulla possimus praesentium quidem reprehenderit sint temporibus.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda eaque, est fugiat hic iure laborum maxime quam quas, quo repudiandae sed similique tempore ut vel vero voluptatibus! Qui, quod!
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('.Templates/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

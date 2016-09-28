@@ -26,3 +26,7 @@ Route::get('/CCMN', function () {
     return view('CCMN');
 
 });
+Route::get('/BCMT', function () {
+    return view('BCMT');
+
+});
