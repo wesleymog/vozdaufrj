@@ -118,23 +118,26 @@
         @yield('conteudo')
         </div>
 
-        <div class="container rodape">
+        <div class="container-fluid rodape">
             <footer>
-                <div class="cols-xs-4"> </div>
-                <div class="cols-xs-4">
+
+                <div class="col-xs-3">
                     <ul class="list-unstyled">
-                        <li>Links úteis</li>
+                        <li><p class="centro">Links úteis</p></li>
                         <li><a href="#">Site UFRJ</a></li>
                         <li><a href="#">Grade Cursos</a></li>
                         <li><a href="#">Bolsas</a></li>
-                    </ul>
-                </div>
-                <div class="cols-xs-4"> </div>
-                <p class="centro">Sobre Nós</p>
-                    <p>O Voz da UFRJ foi criado por três alunos que perceberam a necessidade de ampliar o conhecimento das pessoas sobre seu
+                    </ul> </div>
+                <div class="col-xs-6"><p class="centro">Sobre Nós</p>
+                    O Voz da UFRJ foi criado por três alunos que perceberam a necessidade de ampliar o conhecimento das pessoas sobre seu
                         curso de interesse.
                         Para isso, disponibilizamos o acesso as avaliações e comentários feitos por pessoas que estão
-                        cursando a graduação.</p>
+                        cursando a graduação.</div>
+                <div class="col-xs-3">
+
+                </div>
+
+
             </footer>
         </div>
 

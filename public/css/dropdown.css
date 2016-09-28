@@ -89,7 +89,7 @@ h1 {
   width: 100%;
 
   background-color: #2e2e2e;
-  color: #f9f2f4;
+  color: lightgrey;
 }
 
 .curso{
@@ -124,7 +124,8 @@ h1 {
   text-align:  justify;
 }*/
 .centro{
-  text-align: center;
+  color:#1f648b;
+  font-size: 20px;
 }
 .anuncios{
   background-color: #d62728;
@@ -140,4 +141,8 @@ body{
 p{
   line-height: 22px;
 
+}
+.rodape a{
+  text-decoration: none;
+  color:lightgray;
 }
