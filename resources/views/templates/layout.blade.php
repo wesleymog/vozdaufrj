@@ -68,7 +68,7 @@
 <header>
     <div class="cabecalho container">
 
-        <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="{{asset('assets/images/image.png')}}" width="50px">
+        <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="{{asset('./imagens/003minerva_transparente_vertical.png')}}" width="50px">
         <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz Da UFRJ</h1>
         <div class="col-xs-4 col-md-4 col-lg-4">
             <form class="input-group">
@@ -121,7 +121,7 @@
 
 
     <footer>
-        <div class="navbar-fixed-bottom rodaPe"><p>palhaçada palhaçada palhaçada</p></div>
+        <div class="navbar-fixed-bottom rodape"><p>palhaçada palhaçada palhaçada</p></div>
     </footer>
 </body>
 
