@@ -84,7 +84,6 @@ h1 {
 
 .contColor {
   background-color: white;
-  /*z-index: 150;*/
   position: relative;
   width: 100%; }
 
@@ -102,11 +101,7 @@ h1 {
 }
 .rodape{
   position: relative;
-  /*
-  bottom: -200px;
-  */
   width: 100%;
-
   background-color: #2e2e2e;
   color: lightgrey;
 }
@@ -131,17 +126,11 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0);
   transform: translateY(-50%);
 }
-.logar{
+.logar, .criar-curso, .criar-predio{
   background: none;
   border:0px;
-}/*
-.textos{
-  margin-left:15%;
-  margin-right:15%;
-  border:5px solid;
-  border-color: #090f05;
-  text-align:  justify;
-}*/
+}
+
 .titulo_footer{
   color:#1f648b;
   font-size: 20px;

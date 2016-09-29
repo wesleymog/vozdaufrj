@@ -11,26 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-
-
-});
-
-Route::get('/contato', function () {
-    return view('contato');
-
-});
-
-Route::get('/CCMN', function () {
-    return view('CCMN');
-
-});
-Route::get('/BCMT', function () {
-    return view('BCMT');
-
-});
-Route::get('/Perfil', function () {
-    return view('Perfil');
-
-});
+Route::get('/', function () {return view('home');})->name('home');
+Route::get('/contato', function () {return view('contato');})->name('contato');
+Route::get('/CCMN', function () {return view('CCMN');})->name('CCMN');
+Route::get('/BCMT', function () {return view('BCMT');})->name('BCMT');
+Route::get('/Perfil', function () {return view('Perfil');})->name('Perfil');
+Route::get('/cursoAdmin', function () {return view('cursoAdmin');})->name('CurAdmin');
