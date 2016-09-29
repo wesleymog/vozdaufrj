@@ -7,6 +7,8 @@
         <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
         <link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
     </head>
 
@@ -121,20 +123,23 @@
         <div class="container-fluid rodape">
             <footer>
 
-                <div class="col-xs-3">
+                <div class="col-xs-3 elementos_footer">
                     <ul class="list-unstyled">
-                        <li><p class="centro">Links úteis</p></li>
+                        <li><p class="titulo_footer">Links úteis</p></li>
                         <li><a href="#">Site UFRJ</a></li>
                         <li><a href="#">Grade Cursos</a></li>
                         <li><a href="#">Bolsas</a></li>
                     </ul> </div>
-                <div class="col-xs-6"><p class="centro">Sobre Nós</p>
-                    O Voz da UFRJ foi criado por três alunos que perceberam a necessidade de ampliar o conhecimento das pessoas sobre seu
-                        curso de interesse.
-                        Para isso, disponibilizamos o acesso as avaliações e comentários feitos por pessoas que estão
-                        cursando a graduação.</div>
-                <div class="col-xs-3">
-
+                <div class="col-xs-6 elementos_footer"><p class="titulo_footer">Sobre Nós</p>
+                        <p>O Voz da UFRJ foi criado por três alunos que perceberam a necessidade de ampliar o conhecimento das pessoas sobre seu
+                        curso de interesse.</p>
+                        <p>Para isso, disponibilizamos o acesso as avaliações e comentários feitos por pessoas que estão
+                        cursando a graduação.</p></div>
+                <div class="col-xs-3 elementos_footer">
+                    <p class="titulo_footer">Redes Sociais</p>
+                    <img src="{{asset('./imagens/facebook.png')}}" class="icones">
+                    <img src="{{asset('./imagens/instagram.png')}}" class="icones">
+                    <img src="{{asset('./imagens/twitter.png')}}" class="icones">
                 </div>
 
 

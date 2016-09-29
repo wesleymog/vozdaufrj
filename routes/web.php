@@ -30,3 +30,7 @@ Route::get('/BCMT', function () {
     return view('BCMT');
 
 });
+Route::get('/Perfil', function () {
+    return view('Perfil');
+
+});

@@ -13,9 +13,24 @@
              <p>Acredito que com este curso pessoas indecisas dentro das ciências, podem ter uma experiência perfeita para descobrimento de novas situações</p>
              <p>Por ser uma grade bem flexível, tal curso oferece maior liberdade para quem o cursa</p>
              <p>Oferece-se também habilitações, que são uma espécie de especialização nas áreas citadas acima, além das possiblidades de tranferências oara diversos cursos do CCMN</p>
+             <p class="centro">Se for aluno, avalie este curso</p>
+
+             <div class="estrelas centro">
+                 <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                 <label for="cm_star-1"><i class="fa"></i></label>
+                 <input type="radio" id="cm_star-1" name="fb" value="1"/>
+                 <label for="cm_star-2"><i class="fa"></i></label>
+                 <input type="radio" id="cm_star-2" name="fb" value="2"/>
+                 <label for="cm_star-3"><i class="fa"></i></label>
+                 <input type="radio" id="cm_star-3" name="fb" value="3"/>
+                 <label for="cm_star-4"><i class="fa"></i></label>
+                 <input type="radio" id="cm_star-4" name="fb" value="4"/>
+                 <label for="cm_star-5"><i class="fa"></i></label>
+                 <input type="radio" id="cm_star-5" name="fb" value="5"/>
+             </div>
 
              <p>Deixe seu comentário: </p>
-            <div class="centro">
+            <div >
              <div class="fb-comments" data-href="http://localhost/vozdaufrj/public/BCMT" data-width="600" data-numposts="5"></div>
              <div id="fb-root"></div>
             </div>
