@@ -14,5 +14,5 @@ require('laravel-elixir-vue');
  */
 
 elixir(function(mix) {
-    mix.sass('dropdown.scss');
+    mix.sass('*.scss');
 });

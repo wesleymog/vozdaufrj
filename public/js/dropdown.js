@@ -1,7 +1,7 @@
 var dropNav = $(".dropdownNav");
 
 $(window).scroll(function() {
-    if( $(this).scrollTop() > 90){
+    if( $(this).scrollTop() > 100){
         dropNav.addClass("scrollednav");
         dropNav.removeClass("dropdownNav");
     }else{

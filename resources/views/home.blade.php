@@ -1,7 +1,7 @@
 @extends ('.templates/layout')
 
 @section ('conteudo')
-    <div class="textos">
+    <div class="texto">
         <p>
 >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur deleniti dolorum minus mollitia quos? Ab, blanditiis consequuntur doloribus hic id inventore iste magni maxime minima nobis omnis sit? Rerum?

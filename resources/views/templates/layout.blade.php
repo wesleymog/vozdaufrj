@@ -5,7 +5,6 @@
         <title>Voz da UFRJ</title>
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
-        <link rel= "stylesheet" type="text/css" href="{{asset('css/dropdown.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 

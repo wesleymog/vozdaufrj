@@ -15,6 +15,10 @@
             <p>Oferece-se também habilitações, que são uma espécie de especialização nas áreas citadas acima, além das possiblidades de tranferências oara diversos cursos do CCMN</p>
             <p class="centro">Se for aluno, avalie este curso</p>
 
+            <div class="centro">
+                <button class="btn btn-warning>Editar</button>
+            </div>
+
             <div class="estrelas centro">
                 <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
                 <label for="cm_star-1"><i class="fa"></i></label>
