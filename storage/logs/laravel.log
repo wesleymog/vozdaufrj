@@ -2164,3 +2164,131 @@ Stack trace:
 #22 /opt/lampp/htdocs/vozdaufrj/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #23 /opt/lampp/htdocs/vozdaufrj/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #24 {main}  
+[2016-10-02 04:33:52] local.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:119
+Stack trace:
+#0 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(119): PDO->__construct('mysql:host=127....', 'homestead', 'secret', Array)
+#1 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(56): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'homestead', 'secret', Array)
+#2 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\xampp\htdocs\vozdaufrj\bootstrap\cache\compiled.php(11774): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(956): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(824): Illuminate\Database\Connection->getPdo()
+#7 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(709): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#8 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#9 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(21): Illuminate\Database\Connection->select('select * from i...', Array)
+#10 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(154): Illuminate\Database\Schema\MySqlBuilder->hasTable('migrations')
+#11 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(474): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#12 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(92): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#13 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(58): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 C:\xampp\htdocs\vozdaufrj\bootstrap\cache\compiled.php(1269): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(169): Illuminate\Container\Container->call(Array)
+#17 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Command\Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(818): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 C:\xampp\htdocs\vozdaufrj\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 {main}  
+[2016-10-02 04:36:37] local.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'homestead'@'localhost' (using password: YES)' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:119
+Stack trace:
+#0 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(119): PDO->__construct('mysql:host=127....', 'homestead', 'secret', Array)
+#1 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(56): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'homestead', 'secret', Array)
+#2 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\xampp\htdocs\vozdaufrj\bootstrap\cache\compiled.php(11774): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(956): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(824): Illuminate\Database\Connection->getPdo()
+#7 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(709): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#8 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#9 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(21): Illuminate\Database\Connection->select('select * from i...', Array)
+#10 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(154): Illuminate\Database\Schema\MySqlBuilder->hasTable('migrations')
+#11 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(474): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#12 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(92): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#13 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(58): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 C:\xampp\htdocs\vozdaufrj\bootstrap\cache\compiled.php(1269): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(169): Illuminate\Container\Container->call(Array)
+#17 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Command\Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(818): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 C:\xampp\htdocs\vozdaufrj\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 {main}  
+[2016-10-02 04:51:01] local.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'vozdaufrj'' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:119
+Stack trace:
+#0 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(119): PDO->__construct('mysql:host=127....', '', '', Array)
+#1 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(56): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', '', '', Array)
+#2 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\xampp\htdocs\vozdaufrj\bootstrap\cache\compiled.php(11774): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(956): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(824): Illuminate\Database\Connection->getPdo()
+#7 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(709): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#8 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Connection.php(351): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#9 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(21): Illuminate\Database\Connection->select('select * from i...', Array)
+#10 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(154): Illuminate\Database\Schema\MySqlBuilder->hasTable('migrations')
+#11 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(474): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#12 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(92): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#13 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(58): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 C:\xampp\htdocs\vozdaufrj\bootstrap\cache\compiled.php(1269): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(169): Illuminate\Container\Container->call(Array)
+#17 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Command\Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(818): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 C:\xampp\htdocs\vozdaufrj\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 {main}  
+[2016-10-02 04:53:49] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UsersTable' not found' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:369
+Stack trace:
+#0 {main}  
+[2016-10-02 05:01:48] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UsersTable' not found' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:369
+Stack trace:
+#0 {main}  
+[2016-10-02 05:12:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UsersTable' not found' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:369
+Stack trace:
+#0 {main}  
+[2016-10-02 05:16:52] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UsersTable' not found' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:369
+Stack trace:
+#0 {main}  
+[2016-10-02 05:24:16] local.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Not enough arguments (missing: "name").' in C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Input\Input.php:83
+Stack trace:
+#0 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Command\Command.php(251): Symfony\Component\Console\Input\Input->validate()
+#1 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Console\Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(818): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\vozdaufrj\vendor\symfony\console\Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\xampp\htdocs\vozdaufrj\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 {main}  
+[2016-10-02 05:26:42] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UsersTable' not found' in C:\xampp\htdocs\vozdaufrj\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:369
+Stack trace:
+#0 {main}  
+[2016-10-02 05:35:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
+[2016-10-02 05:42:18] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
+[2016-10-02 05:43:25] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
+[2016-10-02 05:44:31] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
+[2016-10-02 05:45:15] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
+[2016-10-02 05:46:48] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
+[2016-10-02 05:48:09] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::int()' in C:\xampp\htdocs\vozdaufrj\database\migrations\2016_10_02_053259_users_table.php:17
+Stack trace:
+#0 {main}  
